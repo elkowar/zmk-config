@@ -25,7 +25,7 @@
 
 #define COMBO(name, time, time_free, keys, the_bindings) combo_##name { timeout-ms = <time>; require-prior-idle-ms = <time_free>; key-positions = keys; bindings = <the_bindings>; layers = <L_MAIN L_SEMI L_SYM L_NUM L_ADJ>; }
 //#define COMBO(name, time, time_free, keys, the_bindings) combo_##name { timeout-ms = <time>; timeout-ms-freestanding = <time_free>; key-positions = keys; bindings = <the_bindings>; layers = <L_MAIN L_SEMI L_SYM L_NUM L_ADJ>; }
-#define MACRO(name, ...) m_##name: m_##name { compatible = "zmk,behavior-macro"; #binding-cells = <0>; label = #name; bindings = __VA_ARGS__; }
+#define MACRO(name, ...) m_##name: m_##name { compatible = "zmk,behavior-macro"; #binding-cells = <0>; /*label = #name; */ bindings = __VA_ARGS__; }
 
 &mt {
   tapping-term-ms = <160>;
@@ -45,7 +45,7 @@
 
     skq: sticky_key_quick_release {
       compatible = "zmk,behavior-sticky-key";
-      label = "STICKY_KEY_QUICK_RELEASE";
+      //label = "STICKY_KEY_QUICK_RELEASE";
       #binding-cells = <1>;
       bindings = <&kp>;
       release-after-ms = <300>;
@@ -54,7 +54,7 @@
 
     hmgui: homerow_gui {
       compatible = "zmk,behavior-hold-tap";
-      label = "HOMEROW_GUI";
+      //label = "HOMEROW_GUI";
       #binding-cells = <2>;
       tapping-term-ms = <200>;
       quick_tap_ms = QUICK_TAP;
