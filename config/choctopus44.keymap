@@ -87,10 +87,10 @@
     COMBO(vert_underscore,   30, 40, < 8 20>,    &kp UNDERSCORE);
     COMBO(vert_qmark,        20, 20, <13 22>,    &kp QMARK); 
 
-    COMBO(thumb_colon,       20, 30, <41 19>,    &kp COLON);
-    COMBO(thumb_underscore,  20, 30, <41 20>,    &kp UNDERSCORE);
-    COMBO(thumb_qmark,       20, 30, <41 21>,    &kp QMARK);
-    COMBO(thumb_excl,        20, 30, <41 22>,    &kp EXCL);
+    COMBO(thumb_colon,       20, 30, <42 19>,    &kp COLON);
+    COMBO(thumb_underscore,  20, 30, <42 20>,    &kp UNDERSCORE);
+    COMBO(thumb_qmark,       20, 30, <42 21>,    &kp QMARK);
+    COMBO(thumb_excl,        20, 30, <42 22>,    &kp EXCL);
 
     COMBO(double_colon,      20, 30, <18 19>,    &m_double_colon); 
     COMBO(fat_arrow,         30, 40, <18 10>,    &m_fat_arrow); 
