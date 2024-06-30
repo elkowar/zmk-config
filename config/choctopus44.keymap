@@ -139,7 +139,7 @@
         &trans &kp CARET &kp EXCL  &kp DQT  &kp SLASH &kp BSLH                        &kp GRAVE &kp LBRC  &kp LBKT    &kp RBKT    &kp RBRC   &kp KP_ASTERISK
         &trans &kp HOME  &kp DLLR  &kp LPAR &kp RPAR  &kp END                         &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT   &kp AMPS   &kp PERCENT
         &trans &kp AT    &kp DEL   &kp PIPE &kp QMARK &kp TILDE   &kp C_PLAY_PAUSE    &kp DEL   &kp EQUAL &kp HASH    &kp UNDER   &kp PG_UP  &kp PG_DN
-                         &trans    &trans   &trans    &mo L_ADJ                       &trans    &trans    &trans      &trans
+                         &trans    &trans   &mo L_ADJ &trans                          &trans    &trans    &trans      &trans
       >;
       sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
     };
